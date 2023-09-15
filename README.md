@@ -1,5 +1,5 @@
 # RClone
-Automated Data Synchronisation and Verification with RClone With Google Drive
+Automated Data Synchronization and Verification with RClone for Google Drive
 
 This script is designed to help you synchronize files from a source directory to a remote destination using [rclone](https://rclone.org/), a command-line program for managing files on cloud storage.
 
@@ -22,10 +22,33 @@ Before using this script, make sure you have the following prerequisites in plac
 
    ```bash
    chmod +x rclone.sh
+   ```
+
+4. Run the script:
+
+   ```bash
+   ./rclone.sh
+   ```
 
 Feel free to modify the README as needed to provide additional context, usage instructions, or any other relevant information.
 
-**Note:** Make sure to have the necessary permissions and dependencies set up before running this script.
+**Note:** Ensure that you have the necessary permissions and dependencies set up before running this script.
+
+## Script Download and Installation
+
+To install rclone on Linux/macOS/BSD systems, run:
+
+```bash
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
+```
+
+For beta installation, run:
+
+```bash
+sudo -v ; curl https://rclone.org/install.sh | sudo bash -s beta
+```
+
+Note that this script checks the version of rclone installed first and won't re-download if not needed.
 
 ## Donations
 
@@ -34,3 +57,6 @@ If you want to show your appreciation, you can donate via [Buy Me a Coffee](http
 ## Disclaimer
 
 This script is provided as-is and may require modifications or updates based on your specific environment and requirements. Use it at your own risk. The authors of the script are not liable for any damages or issues caused by its usage.
+```
+
+Now, "Donations" and "Disclaimer" are placed at the end of the README.md.
