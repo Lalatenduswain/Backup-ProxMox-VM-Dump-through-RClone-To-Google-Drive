@@ -50,6 +50,10 @@ sudo -v ; curl https://rclone.org/install.sh | sudo bash -s beta
 
 Note that this script checks the version of rclone installed first and won't re-download if not needed.
 
+Feel free to modify the README as needed to provide additional context, usage instructions, or any other relevant information.
+
+**Note:** Make sure to have the necessary permissions and dependencies set up before running this script.
+
 ## Donations
 
 If you want to show your appreciation, you can donate via [Buy Me a Coffee](https://www.buymeacoffee.com/lalatendu.swain)
@@ -57,6 +61,3 @@ If you want to show your appreciation, you can donate via [Buy Me a Coffee](http
 ## Disclaimer
 
 This script is provided as-is and may require modifications or updates based on your specific environment and requirements. Use it at your own risk. The authors of the script are not liable for any damages or issues caused by its usage.
-```
-
-Now, "Donations" and "Disclaimer" are placed at the end of the README.md.
