@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author : Lalatendu Swain | https://github.com/Lalatenduswain
+# Help : https://wiki.linuxquestions.org/wiki/Rsync_with_Google_Drive
 
 # Source directory
 source_dir="/var/lib/vz/dump"
